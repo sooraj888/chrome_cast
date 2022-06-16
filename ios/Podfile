@@ -19,6 +19,8 @@ target 'cast_app_2' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'react-native-google-cast', :path => '../node_modules/react-native-google-cast'
+
   target 'cast_app_2Tests' do
     inherit! :complete
     # Pods for testing

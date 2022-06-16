@@ -59,7 +59,7 @@ const App = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return <Text>Hellow world</Text>;
+  return <Text>Hello world</Text>;
 };
 
 const styles = StyleSheet.create({
